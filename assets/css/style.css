@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloques {
+    text-align: center;
+    margin: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.bloques img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: solid gray;
+}
+
+h2 {
+    color: #15163d;
+    font-size: 2em;
+    border: solid gray;
+}
