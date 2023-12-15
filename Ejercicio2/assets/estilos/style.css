@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloques {
+    margin: 20px;
+    max-width: none;
+    width: 100%;
+    position: relative;
+}
+
+.bloques img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%; 
+}
+
+.bloques h2 {
+    font: 700 'Mulish', sans-serif;
+    color: white;
+    font-size: 7vw; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloques p {
+    font: 400 'Mulish', sans-serif;
+    font-size: 2vw; 
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container h1 {
+    font: 700 'Mulish', sans-serif;
+    font-size: 5vw; 
+    color: #3957f1;
+    margin-bottom: 7vw; 
+    margin-top: 2vw; 
+}
+
+@media (min-width: 768px) {
+    .bloques {
+        width: 75%; 
+    }
+    .bloques h2 {
+        font-size: 2em; 
+        top: 50%; 
+    }
+
+    .bloques p {
+        font-size: 1em; 
+        top: 75%; 
+    }
+   
+}
+
+@media (min-width: 992px) {
+    .bloques {
+        width: 45%;
+    }
+
+    .bloques h2 {
+        font-size: 2em; 
+        top: 50%; 
+    }
+
+    .bloques p {
+        font-size: 1em; 
+        top: 75%; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .bloques {
+        width: 20%;
+    }
+
+    .bloques h2 {
+        font-size: 2em; 
+        top: 50%; 
+        line-height: 1;
+        
+    }
+
+    .bloques p {
+        font-size: 1em; 
+        top: 75%; 
+        margin-top: 10px;
+        line-height: 1;
+    }
+}
